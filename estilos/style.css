@@ -23,7 +23,8 @@ main{
     justify-content: center;
     align-items:center;
 }
-#telal{     /*Container que agrupa a caixa da imagem ea caixa do login  */
+#telal{ /*Container que agrupa a caixa da imagem ea caixa do login  */
+    transition: width 0.5s, height 0.5s;    
     width:250px;
     box-shadow:0px 0px 10px rgba(0, 0, 0, 0.613);
     height:500px;
