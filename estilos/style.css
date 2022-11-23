@@ -1,5 +1,5 @@
 @charset "UTF-8";
-
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap');
 /*Paleta de cores
     verde:#49a9ad
     Lilás:#5f2c82
@@ -7,5 +7,38 @@
 *{
     padding:0px;
     margin:0px;
+    box-sizing:border-box;
+    font-family: 'Rubik Distressed', cursive;
+    color:#2a034e;
 }
-
+body, html{
+   background-color:#ca5dc396;
+   height:100vh;
+   width:100vw;
+}
+main{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+#telal{     /*Container que agrupa a caixa da imagem ea caixa do login  */
+    width:250px;
+    box-shadow:0px 0px 10px rgba(0, 0, 0, 0.613);
+    height:500px;
+    background-color:white;
+    border-radius:20px;
+    overflow: hidden;
+}
+section#imagem{   /*caixa do loogin*/
+    background-color:pink;
+    background-image:url('../Imagem/pexels-dids-2911521\ \(3\).jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:200px;
+}
+#log{
+    background-color:white;
+    padding:10px;
+}
