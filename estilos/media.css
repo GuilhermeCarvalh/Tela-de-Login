@@ -33,5 +33,9 @@
     section#log{
         width:50%;
     }
+    section#log > p {
+        font-size: 1.2em;
+    }
+  
 }
 
