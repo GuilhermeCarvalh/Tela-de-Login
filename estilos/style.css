@@ -24,16 +24,41 @@ main{
     align-items:center;
 }
 .campo{
-    background-color: #2a034e;
-    border-radius:5px;
+    border:2px solid rgb(0, 0, 0);
+    background-image:linear-gradient(to left, #9e0d9e,#16085eaa );
+    border-radius:8px;
     margin:5px 0px;
-    width:100%;
+    width:99%;
     height:40px;
 }
 #telal form label {
    display:none;
 }
-#telal form span {
+#telal form div > span {
+    color:white;
+    text-align:center;
+    height:47px;
+    width:40px
+
+}
+#telal form div > span > i {
+
+}
+.campo input{
+    border:none;
+    outline:none;
+    width:calc(100% - 43px);
+    border-radius:8px;
+    height:100%;
+    background-color:#2a034e;
+    color:white;
+    text-align:left;
+    padding:0px -10px;
+    transform:translateY(-1px);
+
+}
+.campo input:focus{
+    background-color: pink;
     color:white;
 }
 #telal{ /*Container que agrupa a caixa da imagem ea caixa do login  */
